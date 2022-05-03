@@ -9,7 +9,7 @@ function App() {
   const [noData, setNoData] = useState('Nenhum Local')
   const [searchTerm, setSearchTerm] = useState('')
   const [weatherData, setWeatherData] = useState([])
-  const [city, setCity] = useState('Unknown location')
+  const [city, setCity] = useState('Local Desconhecido')
   const [weatherIcon, setWeatherIcon] = useState(`${process.env.REACT_APP_ICON_URL}10n@2x.svg`)
 
   const handleChange = input => {
